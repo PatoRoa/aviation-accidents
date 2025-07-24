@@ -1,0 +1,52 @@
+RandomForestClassifier(class_weight='balanced')
+              precision    recall  f1-score   support
+
+           0       1.00      0.01      0.02        93
+           1       1.00      0.00      0.00        10
+           2       0.89      1.00      0.94       802
+
+    accuracy                           0.89       905
+   macro avg       0.96      0.34      0.32       905
+weighted avg       0.90      0.89      0.84       905
+
+[0.88520971 0.88741722 0.88520971 0.88300221 0.88495575 0.88495575
+ 0.88495575 0.88495575 0.88495575 0.88495575] 
+
+Mean Accuracy: 0.8851
+Standard Deviation: 0.0010
+
+
+DecisionTreeClassifier(class_weight='balanced')
+              precision    recall  f1-score   support
+
+           0       0.18      0.19      0.19        93
+           1       0.00      0.00      0.00        10
+           2       0.90      0.88      0.89       802
+
+    accuracy                           0.80       905
+   macro avg       0.36      0.36      0.36       905
+weighted avg       0.81      0.80      0.81       905
+
+[0.79028698 0.77262693 0.8013245  0.82781457 0.75884956 0.78097345
+ 0.82300885 0.82079646 0.78318584 0.77876106] 
+
+Mean Accuracy: 0.7938
+Standard Deviation: 0.0223
+
+
+KNeighborsClassifier()
+              precision    recall  f1-score   support
+
+           0       0.40      0.04      0.08        93
+           1       0.00      0.00      0.00        10
+           2       0.89      0.99      0.94       802
+
+    accuracy                           0.88       905
+   macro avg       0.43      0.35      0.34       905
+weighted avg       0.83      0.88      0.84       905
+
+[0.8785872  0.87637969 0.8785872  0.87417219 0.87389381 0.87610619
+ 0.87389381 0.88274336 0.87831858 0.88274336] 
+
+Mean Accuracy: 0.8775
+Standard Deviation: 0.0031
